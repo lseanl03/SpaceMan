@@ -1,0 +1,13 @@
+
+planet_03.png
+size: 144,144
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+planet_3_rotation_000
+  rotate: false
+  xy: 2, 2
+  size: 138, 137
+  orig: 138, 138
+  offset: 0, 1
+  index: -1

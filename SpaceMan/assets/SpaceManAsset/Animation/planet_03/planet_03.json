@@ -1,0 +1,43 @@
+{
+"skeleton": { "hash": "Cunu85NpZn0zMonivZRLckAMdP8", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "length": 20 },
+	{ "name": "planet_3", "parent": "bone" }
+],
+"slots": [
+	{ "name": "planet_3_rotation_000", "bone": "planet_3" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"planet_3_rotation_000": {
+				"planet_3_rotation_000": { "x": -0.53, "y": -1.33, "width": 138, "height": 138 }
+			}
+		}
+	}
+],
+"animations": {
+	"planet_3": {
+		"slots": {
+			"planet_3_rotation_000": {
+				"attachment": [
+					{ "name": "planet_3_rotation_000" }
+				]
+			}
+		},
+		"bones": {
+			"planet_3": {
+				"translate": [
+					{},
+					{ "time": 1.2667, "y": 11.29 },
+					{ "time": 2.5 },
+					{ "time": 3.7667, "y": 11.29 },
+					{ "time": 5 }
+				]
+			}
+		}
+	}
+}
+}

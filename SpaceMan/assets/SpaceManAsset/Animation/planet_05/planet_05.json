@@ -1,0 +1,72 @@
+{
+"skeleton": {
+	"hash": "bA0icNaOCMezpLPhDt5kkXH6oWQ",
+	"spine": "3.8.99",
+	"x": -28.17,
+	"y": -29.64,
+	"width": 57.14,
+	"height": 58.14,
+	"images": "./images/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "length": 10 },
+	{ "name": "planet_5", "parent": "bone", "length": 103.94 }
+],
+"slots": [
+	{ "name": "planet_5", "bone": "planet_5", "attachment": "planet_5" },
+	{ "name": "planet_5_glow", "bone": "planet_5", "attachment": "planet_5_glow" },
+	{ "name": "planet_5_star_glow", "bone": "planet_5", "attachment": "planet_5_star_glow" },
+	{ "name": "planet_5_ratation_000", "bone": "planet_5" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"planet_5": {
+				"planet_5": { "x": 0.4, "y": -0.57, "rotation": -0.14, "width": 57, "height": 58 }
+			},
+			"planet_5_glow": {
+				"planet_5_glow": { "x": 0.4, "y": -1.07, "rotation": -0.09, "width": 48, "height": 49 }
+			},
+			"planet_5_ratation_000": {
+				"planet_5_ratation_000": { "width": 54, "height": 55 }
+			},
+			"planet_5_star_glow": {
+				"planet_5_star_glow": {
+					"x": -11.82,
+					"y": -6.24,
+					"scaleX": 0.6,
+					"scaleY": 0.6,
+					"rotation": -0.09,
+					"width": 30,
+					"height": 65
+				}
+			}
+		}
+	}
+],
+"animations": {
+	"planet_5": {
+		"slots": {
+			"planet_5_ratation_000": {
+				"attachment": [
+					{ "name": "planet_5_ratation_000" }
+				]
+			}
+		},
+		"bones": {
+			"planet_5": {
+				"translate": [
+					{},
+					{ "time": 0.8333, "y": 4.79 },
+					{ "time": 1.6667 },
+					{ "time": 2.5, "y": 4.79 },
+					{ "time": 3.3333 }
+				]
+			}
+		}
+	}
+}
+}

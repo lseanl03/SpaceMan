@@ -1,0 +1,55 @@
+
+basegame_bg.png
+size: 908,1688
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+basegame-bg_orginal_extended_size
+  rotate: true
+  xy: 2, 403
+  size: 1280, 720
+  orig: 1280, 720
+  offset: 0, 0
+  index: -1
+bg_glow_1
+  rotate: true
+  xy: 724, 2
+  size: 445, 60
+  orig: 445, 61
+  offset: 0, 0
+  index: -1
+blue_star
+  rotate: false
+  xy: 786, 229
+  size: 111, 108
+  orig: 111, 108
+  offset: 0, 0
+  index: -1
+pink_star
+  rotate: false
+  xy: 2, 43
+  size: 480, 358
+  orig: 507, 413
+  offset: 5, 39
+  index: -1
+shooting_star_2_glow
+  rotate: false
+  xy: 724, 449
+  size: 171, 207
+  orig: 171, 207
+  offset: 0, 0
+  index: -1
+star11
+  rotate: true
+  xy: 786, 339
+  size: 108, 117
+  orig: 140, 131
+  offset: 16, 11
+  index: -1
+wave_14
+  rotate: true
+  xy: 724, 658
+  size: 1025, 175
+  orig: 1025, 175
+  offset: 0, 0
+  index: -1

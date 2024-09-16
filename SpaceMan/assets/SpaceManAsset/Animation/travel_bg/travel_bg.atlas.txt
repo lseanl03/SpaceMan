@@ -1,0 +1,41 @@
+
+travel_bg.png
+size: 2892,328
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fast_bg_01
+  rotate: false
+  xy: 2, 2
+  size: 576, 324
+  orig: 576, 324
+  offset: 0, 0
+  index: -1
+fast_bg_02
+  rotate: false
+  xy: 580, 2
+  size: 576, 324
+  orig: 576, 324
+  offset: 0, 0
+  index: -1
+fast_bg_03
+  rotate: false
+  xy: 1158, 2
+  size: 576, 324
+  orig: 576, 324
+  offset: 0, 0
+  index: -1
+fast_bg_04
+  rotate: false
+  xy: 1736, 2
+  size: 576, 324
+  orig: 576, 324
+  offset: 0, 0
+  index: -1
+fast_bg_05
+  rotate: false
+  xy: 2314, 2
+  size: 576, 324
+  orig: 576, 324
+  offset: 0, 0
+  index: -1

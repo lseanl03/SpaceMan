@@ -1,0 +1,166 @@
+{
+"skeleton": {
+	"hash": "GZKYpW67ey/2BKVppaKgtase4BE",
+	"spine": "3.8.99",
+	"x": -157.88,
+	"y": -129.07,
+	"width": 293.82,
+	"height": 248.38,
+	"images": "./images/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "length": 10, "x": 0.87, "y": -5.25 },
+	{ "name": "planet_1", "parent": "bone", "length": 240.26, "x": -1.58, "y": 7.48 }
+],
+"slots": [
+	{ "name": "planet_1 _outer_glow_2", "bone": "planet_1" },
+	{ "name": "planet_1_base", "bone": "planet_1", "attachment": "planet_1_base" },
+	{ "name": "planet_1_rotation_000", "bone": "planet_1", "attachment": "planet_1_rotation_000" },
+	{ "name": "planet_1_inner_shadow", "bone": "planet_1", "attachment": "planet_1_inner_shadow" },
+	{ "name": "planet_1_base_light", "bone": "planet_1", "attachment": "planet_1_base_light" },
+	{ "name": "planet_1_inner_glow", "bone": "planet_1", "attachment": "planet_1_inner_glow" },
+	{ "name": "planet_1_highlight_1", "bone": "planet_1", "attachment": "planet_1_highlight_1" },
+	{ "name": "planet_1_ring", "bone": "planet_1", "attachment": "planet_1_ring" },
+	{ "name": "planet_ring_sweep_00000", "bone": "planet_1", "attachment": "planet_ring_sweep_00000", "blend": "additive" },
+	{ "name": "planet_ring_sweep_00001", "bone": "planet_1", "attachment": "planet_ring_sweep_00001", "blend": "additive" },
+	{ "name": "planet_ring_sweep_00002", "bone": "planet_1", "attachment": "planet_ring_sweep_00002", "blend": "additive" },
+	{ "name": "planet_ring_sweep_00003", "bone": "planet_1", "attachment": "planet_ring_sweep_00003", "blend": "additive" },
+	{ "name": "planet_ring_sweep_00004", "bone": "planet_1", "attachment": "planet_ring_sweep_00004", "blend": "additive" },
+	{ "name": "planet_ring_sweep_00005", "bone": "planet_1", "attachment": "planet_ring_sweep_00005", "blend": "additive" },
+	{ "name": "planet_1_pink_glow", "bone": "planet_1", "attachment": "planet_1_pink_glow" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"planet_1_base": {
+				"planet_1_base": { "width": 205, "height": 207 }
+			},
+			"planet_1_base_light": {
+				"planet_1_base_light": { "x": -8.12, "y": 21.25, "width": 185, "height": 166 }
+			},
+			"planet_1_highlight_1": {
+				"planet_1_highlight_1": { "x": -83.18, "y": 38.13, "width": 148, "height": 152 }
+			},
+			"planet_1_inner_glow": {
+				"planet_1_inner_glow": { "y": 1.73, "width": 205, "height": 204 }
+			},
+			"planet_1_inner_shadow": {
+				"planet_1_inner_shadow": { "y": 0.5, "width": 205, "height": 206 }
+			},
+			"planet_1_pink_glow": {
+				"planet_1_pink_glow": { "x": 14.45, "y": -7.11, "rotation": -0.09, "width": 244, "height": 248 }
+			},
+			"planet_1_ring": {
+				"planet_1_ring": { "x": 10.15, "y": 3.36, "rotation": -0.09, "width": 227, "height": 178 }
+			},
+			"planet_1_rotation_000": {
+				"planet_1_rotation_000": { "y": 0.5, "width": 205, "height": 205 }
+			},
+			"planet_ring_sweep_00000": {
+				"planet_ring_sweep_00000": { "x": 9.99, "y": 3.66, "scaleX": 2, "scaleY": 2, "width": 114, "height": 89 }
+			},
+			"planet_ring_sweep_00001": {
+				"planet_ring_sweep_00001": { "x": 9.99, "y": 3.66, "scaleX": 2, "scaleY": 2, "width": 114, "height": 89 }
+			},
+			"planet_ring_sweep_00002": {
+				"planet_ring_sweep_00002": { "x": 9.99, "y": 3.66, "scaleX": 2, "scaleY": 2, "width": 114, "height": 89 }
+			},
+			"planet_ring_sweep_00003": {
+				"planet_ring_sweep_00003": { "x": 9.99, "y": 3.66, "scaleX": 2, "scaleY": 2, "width": 114, "height": 89 }
+			},
+			"planet_ring_sweep_00004": {
+				"planet_ring_sweep_00004": { "x": 9.99, "y": 3.66, "scaleX": 2, "scaleY": 2, "width": 114, "height": 89 }
+			},
+			"planet_ring_sweep_00005": {
+				"planet_ring_sweep_00005": { "x": 9.99, "y": 3.66, "scaleX": 2, "scaleY": 2, "width": 114, "height": 89 }
+			}
+		}
+	}
+],
+"animations": {
+	"planet_1": {
+		"slots": {
+			"planet_ring_sweep_00000": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3667, "color": "ffffff00" },
+					{ "time": 1.1, "color": "ffffff9d" },
+					{ "time": 1.8333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 5.8333, "color": "ffffff00" },
+					{ "time": 6.5667, "color": "ffffff9d" },
+					{ "time": 7.3, "color": "ffffff00" }
+				]
+			},
+			"planet_ring_sweep_00001": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.9667, "color": "ffffff00" },
+					{ "time": 1.7, "color": "ffffff9d" },
+					{ "time": 2.4333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 6.4333, "color": "ffffff00" },
+					{ "time": 7.1667, "color": "ffffff9d" },
+					{ "time": 7.9, "color": "ffffff00" }
+				]
+			},
+			"planet_ring_sweep_00002": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.6, "color": "ffffff00" },
+					{ "time": 2.3333, "color": "ffffff9d" },
+					{ "time": 3.0667, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 7.0667, "color": "ffffff00" },
+					{ "time": 7.8, "color": "ffffff9d" },
+					{ "time": 8.5333, "color": "ffffff00" }
+				]
+			},
+			"planet_ring_sweep_00003": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 2.2, "color": "ffffff00" },
+					{ "time": 2.9333, "color": "ffffff9d" },
+					{ "time": 3.6667, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 7.6667, "color": "ffffff00" },
+					{ "time": 8.4, "color": "ffffff9d" },
+					{ "time": 9.1333, "color": "ffffff00" }
+				]
+			},
+			"planet_ring_sweep_00004": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 2.8333, "color": "ffffff00" },
+					{ "time": 3.5667, "color": "ffffff9d" },
+					{ "time": 4.3, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 8.3, "color": "ffffff00" },
+					{ "time": 9.0333, "color": "ffffff9d" },
+					{ "time": 9.7667, "color": "ffffff00" }
+				]
+			},
+			"planet_ring_sweep_00005": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 3.4667, "color": "ffffff00" },
+					{ "time": 4.1667, "color": "ffffff9d" },
+					{ "time": 4.9, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 8.9333, "color": "ffffff00" },
+					{ "time": 9.6333, "color": "ffffff9d" },
+					{ "time": 10.3667, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"planet_1": {
+				"translate": [
+					{},
+					{ "time": 2.7, "y": 24.06 },
+					{ "time": 5.4667 },
+					{ "time": 8.1667, "y": 24.06 },
+					{ "time": 10.9333 }
+				]
+			}
+		}
+	}
+}
+}

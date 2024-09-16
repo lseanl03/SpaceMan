@@ -1,0 +1,1755 @@
+{
+"skeleton": {
+	"hash": "pMIOXhnQvc+8tgahj9adGjdaFIU",
+	"spine": "3.8.99",
+	"x": -72.9,
+	"y": -58.69,
+	"width": 150.36,
+	"height": 139.6,
+	"images": "",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "asteroid_01", "parent": "root" },
+	{ "name": "asteroid_02", "parent": "root" },
+	{ "name": "planet_01", "parent": "root" },
+	{ "name": "planet_02", "parent": "root" },
+	{ "name": "planet_03", "parent": "root" },
+	{ "name": "planet_04", "parent": "root" },
+	{ "name": "planet_05", "parent": "root" },
+	{ "name": "planet_06", "parent": "root" },
+	{ "name": "planet_07", "parent": "root" },
+	{ "name": "shadow", "parent": "root", "scaleX": 0.9811, "scaleY": 0.9811 }
+],
+"slots": [
+	{ "name": "planet_01", "bone": "planet_01", "attachment": "planet_01" },
+	{ "name": "planet_02", "bone": "planet_02", "attachment": "planet_02" },
+	{ "name": "planet_03", "bone": "planet_03", "attachment": "planet_03" },
+	{ "name": "planet_04", "bone": "planet_04", "attachment": "planet_04" },
+	{ "name": "planet_05", "bone": "planet_05", "attachment": "planet_05" },
+	{ "name": "planet_06", "bone": "planet_06", "attachment": "planet_06" },
+	{ "name": "planet_07", "bone": "planet_07", "attachment": "planet_07" },
+	{ "name": "asteroid_00011", "bone": "asteroid_01" },
+	{ "name": "asteroid_00012", "bone": "asteroid_02" },
+	{ "name": "textshodow", "bone": "shadow", "color": "ffffffdd", "attachment": "tshadow" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"asteroid_00011": {
+				"asteroid_00011": { "width": 198, "height": 54 },
+				"asteroid_00012": { "width": 198, "height": 54 },
+				"asteroid_00013": { "width": 198, "height": 54 },
+				"asteroid_00014": { "width": 198, "height": 54 },
+				"asteroid_00015": { "width": 198, "height": 54 },
+				"asteroid_00016": { "width": 198, "height": 54 },
+				"asteroid_00017": { "width": 198, "height": 54 },
+				"asteroid_00018": { "width": 198, "height": 54 },
+				"asteroid_00019": { "width": 198, "height": 54 },
+				"asteroid_00020": { "width": 198, "height": 54 },
+				"asteroid_00021": { "width": 198, "height": 54 },
+				"asteroid_00022": { "width": 198, "height": 54 },
+				"asteroid_00023": { "width": 198, "height": 54 },
+				"asteroid_00024": { "width": 198, "height": 54 },
+				"asteroid_00025": { "width": 198, "height": 54 },
+				"asteroid_00026": { "width": 198, "height": 54 },
+				"asteroid_00027": { "width": 198, "height": 54 },
+				"asteroid_00028": { "width": 198, "height": 54 },
+				"asteroid_00029": { "width": 198, "height": 54 },
+				"asteroid_00030": { "width": 198, "height": 54 },
+				"asteroid_00031": { "width": 198, "height": 54 },
+				"asteroid_00032": { "width": 198, "height": 54 },
+				"asteroid_00033": { "width": 198, "height": 54 },
+				"asteroid_00034": { "width": 198, "height": 54 },
+				"asteroid_00035": { "width": 198, "height": 54 },
+				"asteroid_00036": { "width": 198, "height": 54 },
+				"asteroid_00037": { "width": 198, "height": 54 },
+				"asteroid_00038": { "width": 198, "height": 54 },
+				"asteroid_00039": { "width": 198, "height": 54 },
+				"asteroid_00040": { "width": 198, "height": 54 },
+				"asteroid_00041": { "width": 198, "height": 54 },
+				"asteroid_00042": { "width": 198, "height": 54 },
+				"asteroid_00043": { "width": 198, "height": 54 },
+				"asteroid_00044": { "width": 198, "height": 54 },
+				"asteroid_00045": { "width": 198, "height": 54 },
+				"asteroid_00046": { "width": 198, "height": 54 },
+				"asteroid_00047": { "width": 198, "height": 54 }
+			},
+			"asteroid_00012": {
+				"asteroid_00011": { "width": 198, "height": 54 },
+				"asteroid_00012": { "width": 198, "height": 54 },
+				"asteroid_00013": { "width": 198, "height": 54 },
+				"asteroid_00014": { "width": 198, "height": 54 },
+				"asteroid_00015": { "width": 198, "height": 54 },
+				"asteroid_00016": { "width": 198, "height": 54 },
+				"asteroid_00017": { "width": 198, "height": 54 },
+				"asteroid_00018": { "width": 198, "height": 54 },
+				"asteroid_00019": { "width": 198, "height": 54 },
+				"asteroid_00020": { "width": 198, "height": 54 },
+				"asteroid_00021": { "width": 198, "height": 54 },
+				"asteroid_00022": { "width": 198, "height": 54 },
+				"asteroid_00023": { "width": 198, "height": 54 },
+				"asteroid_00024": { "width": 198, "height": 54 },
+				"asteroid_00025": { "width": 198, "height": 54 },
+				"asteroid_00026": { "width": 198, "height": 54 },
+				"asteroid_00027": { "width": 198, "height": 54 },
+				"asteroid_00028": { "width": 198, "height": 54 },
+				"asteroid_00029": { "width": 198, "height": 54 },
+				"asteroid_00030": { "width": 198, "height": 54 },
+				"asteroid_00031": { "width": 198, "height": 54 },
+				"asteroid_00032": { "width": 198, "height": 54 },
+				"asteroid_00033": { "width": 198, "height": 54 },
+				"asteroid_00034": { "width": 198, "height": 54 },
+				"asteroid_00035": { "width": 198, "height": 54 },
+				"asteroid_00036": { "width": 198, "height": 54 },
+				"asteroid_00037": { "width": 198, "height": 54 },
+				"asteroid_00038": { "width": 198, "height": 54 },
+				"asteroid_00039": { "width": 198, "height": 54 },
+				"asteroid_00040": { "width": 198, "height": 54 },
+				"asteroid_00041": { "width": 198, "height": 54 },
+				"asteroid_00042": { "width": 198, "height": 54 },
+				"asteroid_00043": { "width": 198, "height": 54 },
+				"asteroid_00044": { "width": 198, "height": 54 },
+				"asteroid_00045": { "width": 198, "height": 54 },
+				"asteroid_00046": { "width": 198, "height": 54 },
+				"asteroid_00047": { "width": 198, "height": 54 }
+			},
+			"planet_01": {
+				"planet_01": { "scaleX": 0.7375, "scaleY": 0.7525, "width": 156, "height": 156 }
+			},
+			"planet_02": {
+				"planet_02": { "scaleX": 0.75, "scaleY": 0.75, "width": 156, "height": 156 }
+			},
+			"planet_03": {
+				"planet_03": { "scaleX": 0.75, "scaleY": 0.75, "width": 156, "height": 156 }
+			},
+			"planet_04": {
+				"planet_04": { "scaleX": 0.75, "scaleY": 0.75, "width": 156, "height": 156 }
+			},
+			"planet_05": {
+				"planet_05": { "scaleX": 0.75, "scaleY": 0.75, "width": 156, "height": 156 }
+			},
+			"planet_06": {
+				"planet_06": { "scaleX": 0.75, "scaleY": 0.75, "width": 156, "height": 156 }
+			},
+			"planet_07": {
+				"planet_07": { "x": 13.01, "y": 14.69, "scaleX": 0.8263, "scaleY": 0.8277, "width": 156, "height": 160 }
+			},
+			"textshodow": {
+				"tshadow": { "y": 0.5, "scaleX": 0.3706, "scaleY": 0.6604, "width": 401, "height": 130 }
+			}
+		}
+	}
+],
+"animations": {
+	"planet_01_in": {
+		"slots": {
+			"planet_02": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_03": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_04": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_05": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_06": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_07": {
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		},
+		"bones": {
+			"planet_01": {
+				"scale": [
+					{},
+					{ "time": 0.2333, "x": 1.1, "y": 1.1 },
+					{ "time": 0.3333 }
+				]
+			}
+		}
+	},
+	"planet_01_loop": {
+		"slots": {
+			"planet_02": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_03": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_04": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_05": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_06": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_07": {
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		}
+	},
+	"planet_01_out": {
+		"slots": {
+			"planet_01": {
+				"attachment": [
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"planet_02": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.2, "name": "planet_02" }
+				]
+			},
+			"planet_03": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_04": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_05": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_06": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_07": {
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		},
+		"bones": {
+			"planet_01": {
+				"scale": [
+					{},
+					{ "time": 0.1, "x": 1.1, "y": 1.1 },
+					{ "time": 0.2 }
+				]
+			},
+			"planet_02": {
+				"scale": [
+					{},
+					{ "time": 0.3333, "x": 0.5, "y": 0.5 },
+					{ "time": 0.4667, "x": 1.1, "y": 1.1 },
+					{ "time": 0.6 }
+				]
+			}
+		}
+	},
+	"planet_02_in": {
+		"slots": {
+			"planet_01": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_03": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_04": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_05": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_06": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_07": {
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		}
+	},
+	"planet_02_loop": {
+		"slots": {
+			"planet_01": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_03": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_04": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_05": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_06": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_07": {
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		}
+	},
+	"planet_02_out": {
+		"slots": {
+			"planet_01": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_03": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.3, "name": "planet_03" }
+				]
+			},
+			"planet_04": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_05": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_06": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_07": {
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		},
+		"bones": {
+			"planet_03": {
+				"scale": [
+					{ "time": 0.3, "x": 0.5, "y": 0.5 },
+					{ "time": 0.4333, "x": 1.1, "y": 1.1 },
+					{ "time": 0.5667 }
+				]
+			}
+		}
+	},
+	"planet_03_in": {
+		"slots": {
+			"planet_01": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_02": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_04": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_05": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_06": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_07": {
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		}
+	},
+	"planet_03_loop": {
+		"slots": {
+			"asteroid_00011": {
+				"attachment": [
+					{ "name": "asteroid_00011" },
+					{ "time": 0.0333, "name": "asteroid_00012" },
+					{ "time": 0.0667, "name": "asteroid_00013" },
+					{ "time": 0.1, "name": "asteroid_00014" },
+					{ "time": 0.1333, "name": "asteroid_00015" },
+					{ "time": 0.1667, "name": "asteroid_00016" },
+					{ "time": 0.2, "name": "asteroid_00017" },
+					{ "time": 0.2333, "name": "asteroid_00018" },
+					{ "time": 0.2667, "name": "asteroid_00019" },
+					{ "time": 0.3, "name": "asteroid_00020" },
+					{ "time": 0.3333, "name": "asteroid_00021" },
+					{ "time": 0.3667, "name": "asteroid_00022" },
+					{ "time": 0.4, "name": "asteroid_00023" },
+					{ "time": 0.4333, "name": "asteroid_00024" },
+					{ "time": 0.4667, "name": "asteroid_00025" },
+					{ "time": 0.5, "name": "asteroid_00026" },
+					{ "time": 0.5333, "name": "asteroid_00027" },
+					{ "time": 0.5667, "name": "asteroid_00028" },
+					{ "time": 0.6, "name": "asteroid_00029" },
+					{ "time": 0.6333, "name": "asteroid_00030" },
+					{ "time": 0.6667, "name": "asteroid_00031" },
+					{ "time": 0.7, "name": "asteroid_00032" },
+					{ "time": 0.7333, "name": "asteroid_00033" },
+					{ "time": 0.7667, "name": "asteroid_00034" },
+					{ "time": 0.8, "name": "asteroid_00035" },
+					{ "time": 0.8333, "name": "asteroid_00036" },
+					{ "time": 0.8667, "name": "asteroid_00037" },
+					{ "time": 0.9, "name": "asteroid_00038" },
+					{ "time": 0.9333, "name": "asteroid_00039" },
+					{ "time": 0.9667, "name": "asteroid_00040" },
+					{ "time": 1, "name": "asteroid_00041" },
+					{ "time": 1.0333, "name": "asteroid_00042" },
+					{ "time": 1.0667, "name": "asteroid_00043" },
+					{ "time": 1.1, "name": "asteroid_00044" },
+					{ "time": 1.1333, "name": "asteroid_00045" },
+					{ "time": 1.1667, "name": "asteroid_00046" },
+					{ "time": 1.2, "name": "asteroid_00047" },
+					{ "time": 1.2333, "name": null },
+					{ "time": 1.2667, "name": "asteroid_00011" },
+					{ "time": 1.3, "name": "asteroid_00012" },
+					{ "time": 1.3333, "name": "asteroid_00013" },
+					{ "time": 1.3667, "name": "asteroid_00014" },
+					{ "time": 1.4, "name": "asteroid_00015" },
+					{ "time": 1.4333, "name": "asteroid_00016" },
+					{ "time": 1.4667, "name": "asteroid_00017" },
+					{ "time": 1.5, "name": "asteroid_00018" },
+					{ "time": 1.5333, "name": "asteroid_00019" },
+					{ "time": 1.5667, "name": "asteroid_00020" },
+					{ "time": 1.6, "name": "asteroid_00021" },
+					{ "time": 1.6333, "name": "asteroid_00022" },
+					{ "time": 1.6667, "name": "asteroid_00023" },
+					{ "time": 1.7, "name": "asteroid_00024" },
+					{ "time": 1.7333, "name": "asteroid_00025" },
+					{ "time": 1.7667, "name": "asteroid_00026" },
+					{ "time": 1.8, "name": "asteroid_00027" },
+					{ "time": 1.8333, "name": "asteroid_00028" },
+					{ "time": 1.8667, "name": "asteroid_00029" },
+					{ "time": 1.9, "name": "asteroid_00030" },
+					{ "time": 1.9333, "name": "asteroid_00031" },
+					{ "time": 1.9667, "name": "asteroid_00032" },
+					{ "time": 2, "name": "asteroid_00033" },
+					{ "time": 2.0333, "name": "asteroid_00034" },
+					{ "time": 2.0667, "name": "asteroid_00035" },
+					{ "time": 2.1, "name": "asteroid_00036" },
+					{ "time": 2.1333, "name": "asteroid_00037" },
+					{ "time": 2.1667, "name": "asteroid_00038" },
+					{ "time": 2.2, "name": "asteroid_00039" },
+					{ "time": 2.2333, "name": "asteroid_00040" },
+					{ "time": 2.2667, "name": "asteroid_00041" },
+					{ "time": 2.3, "name": "asteroid_00042" },
+					{ "time": 2.3333, "name": "asteroid_00043" },
+					{ "time": 2.3667, "name": "asteroid_00044" },
+					{ "time": 2.4, "name": "asteroid_00045" },
+					{ "time": 2.4333, "name": "asteroid_00046" },
+					{ "time": 2.4667, "name": "asteroid_00047" },
+					{ "time": 2.5, "name": null }
+				]
+			},
+			"planet_01": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_02": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_04": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_05": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_06": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_07": {
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		}
+	},
+	"planet_03_out": {
+		"slots": {
+			"planet_01": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_02": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_04": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.3, "name": "planet_04" }
+				]
+			},
+			"planet_05": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_06": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_07": {
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		},
+		"bones": {
+			"planet_04": {
+				"scale": [
+					{ "time": 0.3, "x": 0.5, "y": 0.5 },
+					{ "time": 0.4333, "x": 1.1, "y": 1.1 },
+					{ "time": 0.5667 }
+				]
+			}
+		}
+	},
+	"planet_04_in": {
+		"slots": {
+			"planet_01": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_02": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_05": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_06": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_07": {
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		}
+	},
+	"planet_04_loop": {
+		"slots": {
+			"asteroid_00011": {
+				"attachment": [
+					{ "name": "asteroid_00011" },
+					{ "time": 0.0333, "name": "asteroid_00012" },
+					{ "time": 0.0667, "name": "asteroid_00013" },
+					{ "time": 0.1, "name": "asteroid_00014" },
+					{ "time": 0.1333, "name": "asteroid_00015" },
+					{ "time": 0.1667, "name": "asteroid_00016" },
+					{ "time": 0.2, "name": "asteroid_00017" },
+					{ "time": 0.2333, "name": "asteroid_00018" },
+					{ "time": 0.2667, "name": "asteroid_00019" },
+					{ "time": 0.3, "name": "asteroid_00020" },
+					{ "time": 0.3333, "name": "asteroid_00021" },
+					{ "time": 0.3667, "name": "asteroid_00022" },
+					{ "time": 0.4, "name": "asteroid_00023" },
+					{ "time": 0.4333, "name": "asteroid_00024" },
+					{ "time": 0.4667, "name": "asteroid_00025" },
+					{ "time": 0.5, "name": "asteroid_00026" },
+					{ "time": 0.5333, "name": "asteroid_00027" },
+					{ "time": 0.5667, "name": "asteroid_00028" },
+					{ "time": 0.6, "name": "asteroid_00029" },
+					{ "time": 0.6333, "name": "asteroid_00030" },
+					{ "time": 0.6667, "name": "asteroid_00031" },
+					{ "time": 0.7, "name": "asteroid_00032" },
+					{ "time": 0.7333, "name": "asteroid_00033" },
+					{ "time": 0.7667, "name": "asteroid_00034" },
+					{ "time": 0.8, "name": "asteroid_00035" },
+					{ "time": 0.8333, "name": "asteroid_00036" },
+					{ "time": 0.8667, "name": "asteroid_00037" },
+					{ "time": 0.9, "name": "asteroid_00038" },
+					{ "time": 0.9333, "name": "asteroid_00039" },
+					{ "time": 0.9667, "name": "asteroid_00040" },
+					{ "time": 1, "name": "asteroid_00041" },
+					{ "time": 1.0333, "name": "asteroid_00042" },
+					{ "time": 1.0667, "name": "asteroid_00043" },
+					{ "time": 1.1, "name": "asteroid_00044" },
+					{ "time": 1.1333, "name": "asteroid_00045" },
+					{ "time": 1.1667, "name": "asteroid_00046" },
+					{ "time": 1.2, "name": "asteroid_00047" },
+					{ "time": 1.2333, "name": "asteroid_00011" },
+					{ "time": 1.2667, "name": "asteroid_00012" },
+					{ "time": 1.3, "name": "asteroid_00013" },
+					{ "time": 1.3333, "name": "asteroid_00014" },
+					{ "time": 1.3667, "name": "asteroid_00015" },
+					{ "time": 1.4, "name": "asteroid_00016" },
+					{ "time": 1.4333, "name": "asteroid_00017" },
+					{ "time": 1.4667, "name": "asteroid_00018" },
+					{ "time": 1.5, "name": "asteroid_00019" },
+					{ "time": 1.5333, "name": "asteroid_00020" },
+					{ "time": 1.5667, "name": "asteroid_00021" },
+					{ "time": 1.6, "name": "asteroid_00022" },
+					{ "time": 1.6333, "name": "asteroid_00023" },
+					{ "time": 1.6667, "name": "asteroid_00024" },
+					{ "time": 1.7, "name": "asteroid_00025" },
+					{ "time": 1.7333, "name": "asteroid_00026" },
+					{ "time": 1.7667, "name": "asteroid_00027" },
+					{ "time": 1.8, "name": "asteroid_00028" },
+					{ "time": 1.8333, "name": "asteroid_00029" },
+					{ "time": 1.8667, "name": "asteroid_00030" },
+					{ "time": 1.9, "name": "asteroid_00031" },
+					{ "time": 1.9333, "name": "asteroid_00032" },
+					{ "time": 1.9667, "name": "asteroid_00033" },
+					{ "time": 2, "name": "asteroid_00034" },
+					{ "time": 2.0333, "name": "asteroid_00035" },
+					{ "time": 2.0667, "name": "asteroid_00036" },
+					{ "time": 2.1, "name": "asteroid_00037" },
+					{ "time": 2.1333, "name": "asteroid_00038" },
+					{ "time": 2.1667, "name": "asteroid_00039" },
+					{ "time": 2.2, "name": "asteroid_00040" },
+					{ "time": 2.2333, "name": "asteroid_00041" },
+					{ "time": 2.2667, "name": "asteroid_00042" },
+					{ "time": 2.3, "name": "asteroid_00043" },
+					{ "time": 2.3333, "name": "asteroid_00044" },
+					{ "time": 2.3667, "name": "asteroid_00045" },
+					{ "time": 2.4, "name": "asteroid_00046" },
+					{ "time": 2.4333, "name": "asteroid_00047" },
+					{ "time": 2.4667, "name": "asteroid_00011" },
+					{ "time": 2.5, "name": "asteroid_00012" },
+					{ "time": 2.5333, "name": "asteroid_00013" },
+					{ "time": 2.5667, "name": "asteroid_00014" },
+					{ "time": 2.6, "name": "asteroid_00015" },
+					{ "time": 2.6333, "name": "asteroid_00016" },
+					{ "time": 2.6667, "name": "asteroid_00017" },
+					{ "time": 2.7, "name": "asteroid_00018" },
+					{ "time": 2.7333, "name": "asteroid_00019" },
+					{ "time": 2.7667, "name": "asteroid_00020" },
+					{ "time": 2.8, "name": "asteroid_00021" },
+					{ "time": 2.8333, "name": "asteroid_00022" },
+					{ "time": 2.8667, "name": "asteroid_00023" },
+					{ "time": 2.9, "name": "asteroid_00024" },
+					{ "time": 2.9333, "name": "asteroid_00025" },
+					{ "time": 2.9667, "name": "asteroid_00026" },
+					{ "time": 3, "name": "asteroid_00027" },
+					{ "time": 3.0333, "name": "asteroid_00028" },
+					{ "time": 3.0667, "name": "asteroid_00029" },
+					{ "time": 3.1, "name": "asteroid_00030" },
+					{ "time": 3.1333, "name": "asteroid_00031" },
+					{ "time": 3.1667, "name": "asteroid_00032" },
+					{ "time": 3.2, "name": "asteroid_00033" },
+					{ "time": 3.2333, "name": "asteroid_00034" },
+					{ "time": 3.2667, "name": "asteroid_00035" },
+					{ "time": 3.3, "name": "asteroid_00036" },
+					{ "time": 3.3333, "name": "asteroid_00037" },
+					{ "time": 3.3667, "name": "asteroid_00038" },
+					{ "time": 3.4, "name": "asteroid_00039" },
+					{ "time": 3.4333, "name": "asteroid_00040" },
+					{ "time": 3.4667, "name": "asteroid_00041" },
+					{ "time": 3.5, "name": "asteroid_00042" },
+					{ "time": 3.5333, "name": "asteroid_00043" },
+					{ "time": 3.5667, "name": "asteroid_00044" },
+					{ "time": 3.6, "name": "asteroid_00045" },
+					{ "time": 3.6333, "name": "asteroid_00046" },
+					{ "time": 3.6667, "name": "asteroid_00047" },
+					{ "time": 3.7, "name": "asteroid_00011" },
+					{ "time": 3.7333, "name": "asteroid_00012" },
+					{ "time": 3.7667, "name": "asteroid_00013" },
+					{ "time": 3.8, "name": "asteroid_00014" },
+					{ "time": 3.8333, "name": "asteroid_00015" },
+					{ "time": 3.8667, "name": "asteroid_00016" },
+					{ "time": 3.9, "name": "asteroid_00017" },
+					{ "time": 3.9333, "name": "asteroid_00018" },
+					{ "time": 3.9667, "name": "asteroid_00019" },
+					{ "time": 4, "name": "asteroid_00020" },
+					{ "time": 4.0333, "name": "asteroid_00021" },
+					{ "time": 4.0667, "name": "asteroid_00022" },
+					{ "time": 4.1, "name": "asteroid_00023" },
+					{ "time": 4.1333, "name": "asteroid_00024" },
+					{ "time": 4.2667, "name": null }
+				]
+			},
+			"asteroid_00012": {
+				"attachment": [
+					{ "time": 0.2333, "name": "asteroid_00011" },
+					{ "time": 0.2667, "name": "asteroid_00012" },
+					{ "time": 0.3, "name": "asteroid_00013" },
+					{ "time": 0.3333, "name": "asteroid_00014" },
+					{ "time": 0.3667, "name": "asteroid_00015" },
+					{ "time": 0.4, "name": "asteroid_00016" },
+					{ "time": 0.4333, "name": "asteroid_00017" },
+					{ "time": 0.4667, "name": "asteroid_00018" },
+					{ "time": 0.5, "name": "asteroid_00019" },
+					{ "time": 0.5333, "name": "asteroid_00020" },
+					{ "time": 0.5667, "name": "asteroid_00021" },
+					{ "time": 0.6, "name": "asteroid_00022" },
+					{ "time": 0.6333, "name": "asteroid_00023" },
+					{ "time": 0.6667, "name": "asteroid_00024" },
+					{ "time": 0.7, "name": "asteroid_00025" },
+					{ "time": 0.7333, "name": "asteroid_00026" },
+					{ "time": 0.7667, "name": "asteroid_00027" },
+					{ "time": 0.8, "name": "asteroid_00028" },
+					{ "time": 0.8333, "name": "asteroid_00029" },
+					{ "time": 0.8667, "name": "asteroid_00030" },
+					{ "time": 0.9, "name": "asteroid_00031" },
+					{ "time": 0.9333, "name": "asteroid_00032" },
+					{ "time": 0.9667, "name": "asteroid_00033" },
+					{ "time": 1, "name": "asteroid_00034" },
+					{ "time": 1.0333, "name": "asteroid_00035" },
+					{ "time": 1.0667, "name": "asteroid_00036" },
+					{ "time": 1.1, "name": "asteroid_00037" },
+					{ "time": 1.1333, "name": "asteroid_00038" },
+					{ "time": 1.1667, "name": "asteroid_00039" },
+					{ "time": 1.2, "name": "asteroid_00040" },
+					{ "time": 1.2333, "name": "asteroid_00041" },
+					{ "time": 1.2667, "name": "asteroid_00042" },
+					{ "time": 1.3, "name": "asteroid_00043" },
+					{ "time": 1.3333, "name": "asteroid_00044" },
+					{ "time": 1.3667, "name": "asteroid_00045" },
+					{ "time": 1.4, "name": "asteroid_00046" },
+					{ "time": 1.4333, "name": "asteroid_00047" },
+					{ "time": 1.7, "name": "asteroid_00011" },
+					{ "time": 1.7333, "name": "asteroid_00012" },
+					{ "time": 1.7667, "name": "asteroid_00013" },
+					{ "time": 1.8, "name": "asteroid_00014" },
+					{ "time": 1.8333, "name": "asteroid_00015" },
+					{ "time": 1.8667, "name": "asteroid_00016" },
+					{ "time": 1.9, "name": "asteroid_00017" },
+					{ "time": 1.9333, "name": "asteroid_00018" },
+					{ "time": 1.9667, "name": "asteroid_00019" },
+					{ "time": 2, "name": "asteroid_00020" },
+					{ "time": 2.0333, "name": "asteroid_00021" },
+					{ "time": 2.0667, "name": "asteroid_00022" },
+					{ "time": 2.1, "name": "asteroid_00023" },
+					{ "time": 2.1333, "name": "asteroid_00024" },
+					{ "time": 2.1667, "name": "asteroid_00025" },
+					{ "time": 2.2, "name": "asteroid_00026" },
+					{ "time": 2.2333, "name": "asteroid_00027" },
+					{ "time": 2.2667, "name": "asteroid_00028" },
+					{ "time": 2.3, "name": "asteroid_00029" },
+					{ "time": 2.3333, "name": "asteroid_00030" },
+					{ "time": 2.3667, "name": "asteroid_00031" },
+					{ "time": 2.4, "name": "asteroid_00032" },
+					{ "time": 2.4333, "name": "asteroid_00033" },
+					{ "time": 2.4667, "name": "asteroid_00034" },
+					{ "time": 2.5, "name": "asteroid_00035" },
+					{ "time": 2.5333, "name": "asteroid_00036" },
+					{ "time": 2.5667, "name": "asteroid_00037" },
+					{ "time": 2.6, "name": "asteroid_00038" },
+					{ "time": 2.6333, "name": "asteroid_00039" },
+					{ "time": 2.6667, "name": "asteroid_00040" },
+					{ "time": 2.7, "name": "asteroid_00041" },
+					{ "time": 2.7333, "name": "asteroid_00042" },
+					{ "time": 2.7667, "name": "asteroid_00043" },
+					{ "time": 2.8, "name": "asteroid_00044" },
+					{ "time": 2.8333, "name": "asteroid_00045" },
+					{ "time": 2.8667, "name": "asteroid_00046" },
+					{ "time": 2.9, "name": "asteroid_00047" },
+					{ "time": 3.1667, "name": "asteroid_00011" },
+					{ "time": 3.2, "name": "asteroid_00012" },
+					{ "time": 3.2333, "name": "asteroid_00013" },
+					{ "time": 3.2667, "name": "asteroid_00014" },
+					{ "time": 3.3, "name": "asteroid_00015" },
+					{ "time": 3.3333, "name": "asteroid_00016" },
+					{ "time": 3.3667, "name": "asteroid_00017" },
+					{ "time": 3.4, "name": "asteroid_00018" },
+					{ "time": 3.4333, "name": "asteroid_00019" },
+					{ "time": 3.4667, "name": "asteroid_00020" },
+					{ "time": 3.5, "name": "asteroid_00021" },
+					{ "time": 3.5333, "name": "asteroid_00022" },
+					{ "time": 3.5667, "name": "asteroid_00023" },
+					{ "time": 3.6, "name": "asteroid_00024" },
+					{ "time": 3.6333, "name": "asteroid_00025" },
+					{ "time": 3.6667, "name": "asteroid_00026" },
+					{ "time": 3.7, "name": "asteroid_00027" },
+					{ "time": 3.7333, "name": "asteroid_00028" },
+					{ "time": 3.7667, "name": "asteroid_00029" },
+					{ "time": 3.8, "name": "asteroid_00030" },
+					{ "time": 3.8333, "name": "asteroid_00031" },
+					{ "time": 3.8667, "name": "asteroid_00032" },
+					{ "time": 3.9, "name": "asteroid_00033" },
+					{ "time": 3.9333, "name": "asteroid_00034" },
+					{ "time": 3.9667, "name": "asteroid_00035" },
+					{ "time": 4, "name": "asteroid_00036" },
+					{ "time": 4.0333, "name": "asteroid_00037" },
+					{ "time": 4.0667, "name": "asteroid_00038" },
+					{ "time": 4.1, "name": "asteroid_00039" },
+					{ "time": 4.1333, "name": "asteroid_00040" },
+					{ "time": 4.2667, "name": null }
+				]
+			},
+			"planet_01": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_02": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_05": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_06": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_07": {
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		},
+		"bones": {
+			"asteroid_01": {
+				"rotate": [
+					{ "angle": 16.38 }
+				]
+			},
+			"asteroid_02": {
+				"rotate": [
+					{ "angle": -16 }
+				]
+			}
+		}
+	},
+	"planet_04_out": {
+		"slots": {
+			"planet_01": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_02": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_03": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_06": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_07": {
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		},
+		"bones": {
+			"planet_04": {
+				"scale": [
+					{},
+					{ "time": 0.1667, "x": 1.1, "y": 1.1 },
+					{ "time": 0.3, "x": 0.5, "y": 0.5 }
+				]
+			},
+			"planet_05": {
+				"scale": [
+					{ "x": 0, "y": 0 },
+					{ "time": 0.1, "x": 0.5, "y": 0.5 },
+					{ "time": 0.2333, "x": 1.1, "y": 1.1 },
+					{ "time": 0.3333 }
+				]
+			}
+		}
+	},
+	"planet_05_in": {
+		"slots": {
+			"planet_01": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_02": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_03": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"planet_04": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_06": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_07": {
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		}
+	},
+	"planet_05_loop": {
+		"slots": {
+			"asteroid_00011": {
+				"attachment": [
+					{ "name": "asteroid_00011" },
+					{ "time": 0.0333, "name": "asteroid_00012" },
+					{ "time": 0.0667, "name": "asteroid_00013" },
+					{ "time": 0.1, "name": "asteroid_00014" },
+					{ "time": 0.1333, "name": "asteroid_00015" },
+					{ "time": 0.1667, "name": "asteroid_00016" },
+					{ "time": 0.2, "name": "asteroid_00017" },
+					{ "time": 0.2333, "name": "asteroid_00018" },
+					{ "time": 0.2667, "name": "asteroid_00019" },
+					{ "time": 0.3, "name": "asteroid_00020" },
+					{ "time": 0.3333, "name": "asteroid_00021" },
+					{ "time": 0.3667, "name": "asteroid_00022" },
+					{ "time": 0.4, "name": "asteroid_00023" },
+					{ "time": 0.4333, "name": "asteroid_00024" },
+					{ "time": 0.4667, "name": "asteroid_00025" },
+					{ "time": 0.5, "name": "asteroid_00026" },
+					{ "time": 0.5333, "name": "asteroid_00027" },
+					{ "time": 0.5667, "name": "asteroid_00028" },
+					{ "time": 0.6, "name": "asteroid_00029" },
+					{ "time": 0.6333, "name": "asteroid_00030" },
+					{ "time": 0.6667, "name": "asteroid_00031" },
+					{ "time": 0.7, "name": "asteroid_00032" },
+					{ "time": 0.7333, "name": "asteroid_00033" },
+					{ "time": 0.7667, "name": "asteroid_00034" },
+					{ "time": 0.8, "name": "asteroid_00035" },
+					{ "time": 0.8333, "name": "asteroid_00036" },
+					{ "time": 0.8667, "name": "asteroid_00037" },
+					{ "time": 0.9, "name": "asteroid_00038" },
+					{ "time": 0.9333, "name": "asteroid_00039" },
+					{ "time": 0.9667, "name": "asteroid_00040" },
+					{ "time": 1, "name": "asteroid_00041" },
+					{ "time": 1.0333, "name": "asteroid_00042" },
+					{ "time": 1.0667, "name": "asteroid_00043" },
+					{ "time": 1.1, "name": "asteroid_00044" },
+					{ "time": 1.1333, "name": "asteroid_00045" },
+					{ "time": 1.1667, "name": "asteroid_00046" },
+					{ "time": 1.2, "name": "asteroid_00047" },
+					{ "time": 1.2333, "name": "asteroid_00011" },
+					{ "time": 1.2667, "name": "asteroid_00012" },
+					{ "time": 1.3, "name": "asteroid_00013" },
+					{ "time": 1.3333, "name": "asteroid_00014" },
+					{ "time": 1.3667, "name": "asteroid_00015" },
+					{ "time": 1.4, "name": "asteroid_00016" },
+					{ "time": 1.4333, "name": "asteroid_00017" },
+					{ "time": 1.4667, "name": "asteroid_00018" },
+					{ "time": 1.5, "name": "asteroid_00019" },
+					{ "time": 1.5333, "name": "asteroid_00020" },
+					{ "time": 1.5667, "name": "asteroid_00021" },
+					{ "time": 1.6, "name": "asteroid_00022" },
+					{ "time": 1.6333, "name": "asteroid_00023" },
+					{ "time": 1.6667, "name": "asteroid_00024" },
+					{ "time": 1.7, "name": "asteroid_00025" },
+					{ "time": 1.7333, "name": "asteroid_00026" },
+					{ "time": 1.7667, "name": "asteroid_00027" },
+					{ "time": 1.8, "name": "asteroid_00028" },
+					{ "time": 1.8333, "name": "asteroid_00029" },
+					{ "time": 1.8667, "name": "asteroid_00030" },
+					{ "time": 1.9, "name": "asteroid_00031" },
+					{ "time": 1.9333, "name": "asteroid_00032" },
+					{ "time": 1.9667, "name": "asteroid_00033" },
+					{ "time": 2, "name": "asteroid_00034" },
+					{ "time": 2.0333, "name": "asteroid_00035" },
+					{ "time": 2.0667, "name": "asteroid_00036" },
+					{ "time": 2.1, "name": "asteroid_00037" },
+					{ "time": 2.1333, "name": "asteroid_00038" },
+					{ "time": 2.1667, "name": "asteroid_00039" },
+					{ "time": 2.2, "name": "asteroid_00040" },
+					{ "time": 2.2333, "name": "asteroid_00041" },
+					{ "time": 2.2667, "name": "asteroid_00042" },
+					{ "time": 2.3, "name": "asteroid_00043" },
+					{ "time": 2.3333, "name": "asteroid_00044" },
+					{ "time": 2.3667, "name": "asteroid_00045" },
+					{ "time": 2.4, "name": "asteroid_00046" },
+					{ "time": 2.4333, "name": "asteroid_00047" },
+					{ "time": 2.4667, "name": "asteroid_00011" },
+					{ "time": 2.5, "name": "asteroid_00012" },
+					{ "time": 2.5333, "name": "asteroid_00013" },
+					{ "time": 2.5667, "name": "asteroid_00014" },
+					{ "time": 2.6, "name": "asteroid_00015" },
+					{ "time": 2.6333, "name": "asteroid_00016" },
+					{ "time": 2.6667, "name": "asteroid_00017" },
+					{ "time": 2.7, "name": "asteroid_00018" },
+					{ "time": 2.7333, "name": "asteroid_00019" },
+					{ "time": 2.7667, "name": "asteroid_00020" },
+					{ "time": 2.8, "name": "asteroid_00021" },
+					{ "time": 2.8333, "name": "asteroid_00022" },
+					{ "time": 2.8667, "name": "asteroid_00023" },
+					{ "time": 2.9, "name": "asteroid_00024" },
+					{ "time": 2.9333, "name": "asteroid_00025" },
+					{ "time": 2.9667, "name": "asteroid_00026" },
+					{ "time": 3, "name": "asteroid_00027" },
+					{ "time": 3.0333, "name": "asteroid_00028" },
+					{ "time": 3.0667, "name": "asteroid_00029" },
+					{ "time": 3.1, "name": "asteroid_00030" },
+					{ "time": 3.1333, "name": "asteroid_00031" },
+					{ "time": 3.1667, "name": "asteroid_00032" },
+					{ "time": 3.2, "name": "asteroid_00033" },
+					{ "time": 3.2333, "name": "asteroid_00034" },
+					{ "time": 3.2667, "name": "asteroid_00035" },
+					{ "time": 3.3, "name": "asteroid_00036" },
+					{ "time": 3.3333, "name": "asteroid_00037" },
+					{ "time": 3.3667, "name": "asteroid_00038" },
+					{ "time": 3.4, "name": "asteroid_00039" },
+					{ "time": 3.4333, "name": "asteroid_00040" },
+					{ "time": 3.4667, "name": "asteroid_00041" },
+					{ "time": 3.5, "name": "asteroid_00042" },
+					{ "time": 3.5333, "name": "asteroid_00043" },
+					{ "time": 3.5667, "name": "asteroid_00044" },
+					{ "time": 3.6, "name": "asteroid_00045" },
+					{ "time": 3.6333, "name": "asteroid_00046" },
+					{ "time": 3.6667, "name": "asteroid_00047" },
+					{ "time": 3.7, "name": "asteroid_00011" },
+					{ "time": 3.7333, "name": "asteroid_00012" },
+					{ "time": 3.7667, "name": "asteroid_00013" },
+					{ "time": 3.8, "name": "asteroid_00014" },
+					{ "time": 3.8333, "name": "asteroid_00015" },
+					{ "time": 3.8667, "name": "asteroid_00016" },
+					{ "time": 3.9, "name": "asteroid_00017" },
+					{ "time": 3.9333, "name": "asteroid_00018" },
+					{ "time": 3.9667, "name": "asteroid_00019" },
+					{ "time": 4, "name": "asteroid_00020" },
+					{ "time": 4.0333, "name": "asteroid_00021" },
+					{ "time": 4.0667, "name": "asteroid_00022" },
+					{ "time": 4.1, "name": "asteroid_00023" },
+					{ "time": 4.1333, "name": "asteroid_00024" }
+				]
+			},
+			"asteroid_00012": {
+				"attachment": [
+					{ "time": 0.2333, "name": "asteroid_00011" },
+					{ "time": 0.2667, "name": "asteroid_00012" },
+					{ "time": 0.3, "name": "asteroid_00013" },
+					{ "time": 0.3333, "name": "asteroid_00014" },
+					{ "time": 0.3667, "name": "asteroid_00015" },
+					{ "time": 0.4, "name": "asteroid_00016" },
+					{ "time": 0.4333, "name": "asteroid_00017" },
+					{ "time": 0.4667, "name": "asteroid_00018" },
+					{ "time": 0.5, "name": "asteroid_00019" },
+					{ "time": 0.5333, "name": "asteroid_00020" },
+					{ "time": 0.5667, "name": "asteroid_00021" },
+					{ "time": 0.6, "name": "asteroid_00022" },
+					{ "time": 0.6333, "name": "asteroid_00023" },
+					{ "time": 0.6667, "name": "asteroid_00024" },
+					{ "time": 0.7, "name": "asteroid_00025" },
+					{ "time": 0.7333, "name": "asteroid_00026" },
+					{ "time": 0.7667, "name": "asteroid_00027" },
+					{ "time": 0.8, "name": "asteroid_00028" },
+					{ "time": 0.8333, "name": "asteroid_00029" },
+					{ "time": 0.8667, "name": "asteroid_00030" },
+					{ "time": 0.9, "name": "asteroid_00031" },
+					{ "time": 0.9333, "name": "asteroid_00032" },
+					{ "time": 0.9667, "name": "asteroid_00033" },
+					{ "time": 1, "name": "asteroid_00034" },
+					{ "time": 1.0333, "name": "asteroid_00035" },
+					{ "time": 1.0667, "name": "asteroid_00036" },
+					{ "time": 1.1, "name": "asteroid_00037" },
+					{ "time": 1.1333, "name": "asteroid_00038" },
+					{ "time": 1.1667, "name": "asteroid_00039" },
+					{ "time": 1.2, "name": "asteroid_00040" },
+					{ "time": 1.2333, "name": "asteroid_00041" },
+					{ "time": 1.2667, "name": "asteroid_00042" },
+					{ "time": 1.3, "name": "asteroid_00043" },
+					{ "time": 1.3333, "name": "asteroid_00044" },
+					{ "time": 1.3667, "name": "asteroid_00045" },
+					{ "time": 1.4, "name": "asteroid_00046" },
+					{ "time": 1.4333, "name": "asteroid_00047" },
+					{ "time": 1.7, "name": "asteroid_00011" },
+					{ "time": 1.7333, "name": "asteroid_00012" },
+					{ "time": 1.7667, "name": "asteroid_00013" },
+					{ "time": 1.8, "name": "asteroid_00014" },
+					{ "time": 1.8333, "name": "asteroid_00015" },
+					{ "time": 1.8667, "name": "asteroid_00016" },
+					{ "time": 1.9, "name": "asteroid_00017" },
+					{ "time": 1.9333, "name": "asteroid_00018" },
+					{ "time": 1.9667, "name": "asteroid_00019" },
+					{ "time": 2, "name": "asteroid_00020" },
+					{ "time": 2.0333, "name": "asteroid_00021" },
+					{ "time": 2.0667, "name": "asteroid_00022" },
+					{ "time": 2.1, "name": "asteroid_00023" },
+					{ "time": 2.1333, "name": "asteroid_00024" },
+					{ "time": 2.1667, "name": "asteroid_00025" },
+					{ "time": 2.2, "name": "asteroid_00026" },
+					{ "time": 2.2333, "name": "asteroid_00027" },
+					{ "time": 2.2667, "name": "asteroid_00028" },
+					{ "time": 2.3, "name": "asteroid_00029" },
+					{ "time": 2.3333, "name": "asteroid_00030" },
+					{ "time": 2.3667, "name": "asteroid_00031" },
+					{ "time": 2.4, "name": "asteroid_00032" },
+					{ "time": 2.4333, "name": "asteroid_00033" },
+					{ "time": 2.4667, "name": "asteroid_00034" },
+					{ "time": 2.5, "name": "asteroid_00035" },
+					{ "time": 2.5333, "name": "asteroid_00036" },
+					{ "time": 2.5667, "name": "asteroid_00037" },
+					{ "time": 2.6, "name": "asteroid_00038" },
+					{ "time": 2.6333, "name": "asteroid_00039" },
+					{ "time": 2.6667, "name": "asteroid_00040" },
+					{ "time": 2.7, "name": "asteroid_00041" },
+					{ "time": 2.7333, "name": "asteroid_00042" },
+					{ "time": 2.7667, "name": "asteroid_00043" },
+					{ "time": 2.8, "name": "asteroid_00044" },
+					{ "time": 2.8333, "name": "asteroid_00045" },
+					{ "time": 2.8667, "name": "asteroid_00046" },
+					{ "time": 2.9, "name": "asteroid_00047" },
+					{ "time": 3.1667, "name": "asteroid_00011" },
+					{ "time": 3.2, "name": "asteroid_00012" },
+					{ "time": 3.2333, "name": "asteroid_00013" },
+					{ "time": 3.2667, "name": "asteroid_00014" },
+					{ "time": 3.3, "name": "asteroid_00015" },
+					{ "time": 3.3333, "name": "asteroid_00016" },
+					{ "time": 3.3667, "name": "asteroid_00017" },
+					{ "time": 3.4, "name": "asteroid_00018" },
+					{ "time": 3.4333, "name": "asteroid_00019" },
+					{ "time": 3.4667, "name": "asteroid_00020" },
+					{ "time": 3.5, "name": "asteroid_00021" },
+					{ "time": 3.5333, "name": "asteroid_00022" },
+					{ "time": 3.5667, "name": "asteroid_00023" },
+					{ "time": 3.6, "name": "asteroid_00024" },
+					{ "time": 3.6333, "name": "asteroid_00025" },
+					{ "time": 3.6667, "name": "asteroid_00026" },
+					{ "time": 3.7, "name": "asteroid_00027" },
+					{ "time": 3.7333, "name": "asteroid_00028" },
+					{ "time": 3.7667, "name": "asteroid_00029" },
+					{ "time": 3.8, "name": "asteroid_00030" },
+					{ "time": 3.8333, "name": "asteroid_00031" },
+					{ "time": 3.8667, "name": "asteroid_00032" },
+					{ "time": 3.9, "name": "asteroid_00033" },
+					{ "time": 3.9333, "name": "asteroid_00034" },
+					{ "time": 3.9667, "name": "asteroid_00035" },
+					{ "time": 4, "name": "asteroid_00036" },
+					{ "time": 4.0333, "name": "asteroid_00037" },
+					{ "time": 4.0667, "name": "asteroid_00038" },
+					{ "time": 4.1, "name": "asteroid_00039" },
+					{ "time": 4.1333, "name": "asteroid_00040" }
+				]
+			},
+			"planet_01": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_02": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_04": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_06": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_07": {
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		},
+		"bones": {
+			"asteroid_01": {
+				"rotate": [
+					{ "angle": 28.23 }
+				]
+			},
+			"asteroid_02": {
+				"rotate": [
+					{ "angle": -30 }
+				]
+			}
+		}
+	},
+	"planet_05_out": {
+		"slots": {
+			"planet_01": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_02": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_03": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_04": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_07": {
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		},
+		"bones": {
+			"planet_05": {
+				"scale": [
+					{},
+					{ "time": 0.1, "x": 1.1, "y": 1.1 },
+					{ "time": 0.2333, "x": 0, "y": 0 }
+				]
+			},
+			"planet_06": {
+				"scale": [
+					{ "x": 0, "y": 0 },
+					{ "time": 0.2333 },
+					{ "time": 0.3333, "x": 1.1, "y": 1.1 },
+					{ "time": 0.4333 }
+				]
+			}
+		}
+	},
+	"planet_06_in": {
+		"slots": {
+			"planet_01": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_02": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_03": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_04": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_05": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_07": {
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		}
+	},
+	"planet_06_loop": {
+		"slots": {
+			"asteroid_00011": {
+				"attachment": [
+					{ "name": "asteroid_00011" },
+					{ "time": 0.0333, "name": "asteroid_00012" },
+					{ "time": 0.0667, "name": "asteroid_00013" },
+					{ "time": 0.1, "name": "asteroid_00014" },
+					{ "time": 0.1333, "name": "asteroid_00015" },
+					{ "time": 0.1667, "name": "asteroid_00016" },
+					{ "time": 0.2, "name": "asteroid_00017" },
+					{ "time": 0.2333, "name": "asteroid_00018" },
+					{ "time": 0.2667, "name": "asteroid_00019" },
+					{ "time": 0.3, "name": "asteroid_00020" },
+					{ "time": 0.3333, "name": "asteroid_00021" },
+					{ "time": 0.3667, "name": "asteroid_00022" },
+					{ "time": 0.4, "name": "asteroid_00023" },
+					{ "time": 0.4333, "name": "asteroid_00024" },
+					{ "time": 0.4667, "name": "asteroid_00025" },
+					{ "time": 0.5, "name": "asteroid_00026" },
+					{ "time": 0.5333, "name": "asteroid_00027" },
+					{ "time": 0.5667, "name": "asteroid_00028" },
+					{ "time": 0.6, "name": "asteroid_00029" },
+					{ "time": 0.6333, "name": "asteroid_00030" },
+					{ "time": 0.6667, "name": "asteroid_00031" },
+					{ "time": 0.7, "name": "asteroid_00032" },
+					{ "time": 0.7333, "name": "asteroid_00033" },
+					{ "time": 0.7667, "name": "asteroid_00034" },
+					{ "time": 0.8, "name": "asteroid_00035" },
+					{ "time": 0.8333, "name": "asteroid_00036" },
+					{ "time": 0.8667, "name": "asteroid_00037" },
+					{ "time": 0.9, "name": "asteroid_00038" },
+					{ "time": 0.9333, "name": "asteroid_00039" },
+					{ "time": 0.9667, "name": "asteroid_00040" },
+					{ "time": 1, "name": "asteroid_00041" },
+					{ "time": 1.0333, "name": "asteroid_00042" },
+					{ "time": 1.0667, "name": "asteroid_00043" },
+					{ "time": 1.1, "name": "asteroid_00044" },
+					{ "time": 1.1333, "name": "asteroid_00045" },
+					{ "time": 1.1667, "name": "asteroid_00046" },
+					{ "time": 1.2, "name": "asteroid_00047" },
+					{ "time": 1.2333, "name": "asteroid_00011" },
+					{ "time": 1.2667, "name": "asteroid_00012" },
+					{ "time": 1.3, "name": "asteroid_00013" },
+					{ "time": 1.3333, "name": "asteroid_00014" },
+					{ "time": 1.3667, "name": "asteroid_00015" },
+					{ "time": 1.4, "name": "asteroid_00016" },
+					{ "time": 1.4333, "name": "asteroid_00017" },
+					{ "time": 1.4667, "name": "asteroid_00018" },
+					{ "time": 1.5, "name": "asteroid_00019" },
+					{ "time": 1.5333, "name": "asteroid_00020" },
+					{ "time": 1.5667, "name": "asteroid_00021" },
+					{ "time": 1.6, "name": "asteroid_00022" },
+					{ "time": 1.6333, "name": "asteroid_00023" },
+					{ "time": 1.6667, "name": "asteroid_00024" },
+					{ "time": 1.7, "name": "asteroid_00025" },
+					{ "time": 1.7333, "name": "asteroid_00026" },
+					{ "time": 1.7667, "name": "asteroid_00027" },
+					{ "time": 1.8, "name": "asteroid_00028" },
+					{ "time": 1.8333, "name": "asteroid_00029" },
+					{ "time": 1.8667, "name": "asteroid_00030" },
+					{ "time": 1.9, "name": "asteroid_00031" },
+					{ "time": 1.9333, "name": "asteroid_00032" },
+					{ "time": 1.9667, "name": "asteroid_00033" },
+					{ "time": 2, "name": "asteroid_00034" },
+					{ "time": 2.0333, "name": "asteroid_00035" },
+					{ "time": 2.0667, "name": "asteroid_00036" },
+					{ "time": 2.1, "name": "asteroid_00037" },
+					{ "time": 2.1333, "name": "asteroid_00038" },
+					{ "time": 2.1667, "name": "asteroid_00039" },
+					{ "time": 2.2, "name": "asteroid_00040" },
+					{ "time": 2.2333, "name": "asteroid_00041" },
+					{ "time": 2.2667, "name": "asteroid_00042" },
+					{ "time": 2.3, "name": "asteroid_00043" },
+					{ "time": 2.3333, "name": "asteroid_00044" },
+					{ "time": 2.3667, "name": "asteroid_00045" },
+					{ "time": 2.4, "name": "asteroid_00046" },
+					{ "time": 2.4333, "name": "asteroid_00047" },
+					{ "time": 2.4667, "name": "asteroid_00011" },
+					{ "time": 2.5, "name": "asteroid_00012" },
+					{ "time": 2.5333, "name": "asteroid_00013" },
+					{ "time": 2.5667, "name": "asteroid_00014" },
+					{ "time": 2.6, "name": "asteroid_00015" },
+					{ "time": 2.6333, "name": "asteroid_00016" },
+					{ "time": 2.6667, "name": "asteroid_00017" },
+					{ "time": 2.7, "name": "asteroid_00018" },
+					{ "time": 2.7333, "name": "asteroid_00019" },
+					{ "time": 2.7667, "name": "asteroid_00020" },
+					{ "time": 2.8, "name": "asteroid_00021" },
+					{ "time": 2.8333, "name": "asteroid_00022" },
+					{ "time": 2.8667, "name": "asteroid_00023" },
+					{ "time": 2.9, "name": "asteroid_00024" },
+					{ "time": 2.9333, "name": "asteroid_00025" },
+					{ "time": 2.9667, "name": "asteroid_00026" },
+					{ "time": 3, "name": "asteroid_00027" },
+					{ "time": 3.0333, "name": "asteroid_00028" },
+					{ "time": 3.0667, "name": "asteroid_00029" },
+					{ "time": 3.1, "name": "asteroid_00030" },
+					{ "time": 3.1333, "name": "asteroid_00031" },
+					{ "time": 3.1667, "name": "asteroid_00032" },
+					{ "time": 3.2, "name": "asteroid_00033" },
+					{ "time": 3.2333, "name": "asteroid_00034" },
+					{ "time": 3.2667, "name": "asteroid_00035" },
+					{ "time": 3.3, "name": "asteroid_00036" },
+					{ "time": 3.3333, "name": "asteroid_00037" },
+					{ "time": 3.3667, "name": "asteroid_00038" },
+					{ "time": 3.4, "name": "asteroid_00039" },
+					{ "time": 3.4333, "name": "asteroid_00040" },
+					{ "time": 3.4667, "name": "asteroid_00041" },
+					{ "time": 3.5, "name": "asteroid_00042" },
+					{ "time": 3.5333, "name": "asteroid_00043" },
+					{ "time": 3.5667, "name": "asteroid_00044" },
+					{ "time": 3.6, "name": "asteroid_00045" },
+					{ "time": 3.6333, "name": "asteroid_00046" },
+					{ "time": 3.6667, "name": "asteroid_00047" },
+					{ "time": 3.7, "name": "asteroid_00011" },
+					{ "time": 3.7333, "name": "asteroid_00012" },
+					{ "time": 3.7667, "name": "asteroid_00013" },
+					{ "time": 3.8, "name": "asteroid_00014" },
+					{ "time": 3.8333, "name": "asteroid_00015" },
+					{ "time": 3.8667, "name": "asteroid_00016" },
+					{ "time": 3.9, "name": "asteroid_00017" },
+					{ "time": 3.9333, "name": "asteroid_00018" },
+					{ "time": 3.9667, "name": "asteroid_00019" },
+					{ "time": 4, "name": "asteroid_00020" },
+					{ "time": 4.0333, "name": "asteroid_00021" },
+					{ "time": 4.0667, "name": "asteroid_00022" },
+					{ "time": 4.1, "name": "asteroid_00023" },
+					{ "time": 4.1333, "name": "asteroid_00024" }
+				]
+			},
+			"asteroid_00012": {
+				"attachment": [
+					{ "time": 0.2333, "name": "asteroid_00011" },
+					{ "time": 0.2667, "name": "asteroid_00012" },
+					{ "time": 0.3, "name": "asteroid_00013" },
+					{ "time": 0.3333, "name": "asteroid_00014" },
+					{ "time": 0.3667, "name": "asteroid_00015" },
+					{ "time": 0.4, "name": "asteroid_00016" },
+					{ "time": 0.4333, "name": "asteroid_00017" },
+					{ "time": 0.4667, "name": "asteroid_00018" },
+					{ "time": 0.5, "name": "asteroid_00019" },
+					{ "time": 0.5333, "name": "asteroid_00020" },
+					{ "time": 0.5667, "name": "asteroid_00021" },
+					{ "time": 0.6, "name": "asteroid_00022" },
+					{ "time": 0.6333, "name": "asteroid_00023" },
+					{ "time": 0.6667, "name": "asteroid_00024" },
+					{ "time": 0.7, "name": "asteroid_00025" },
+					{ "time": 0.7333, "name": "asteroid_00026" },
+					{ "time": 0.7667, "name": "asteroid_00027" },
+					{ "time": 0.8, "name": "asteroid_00028" },
+					{ "time": 0.8333, "name": "asteroid_00029" },
+					{ "time": 0.8667, "name": "asteroid_00030" },
+					{ "time": 0.9, "name": "asteroid_00031" },
+					{ "time": 0.9333, "name": "asteroid_00032" },
+					{ "time": 0.9667, "name": "asteroid_00033" },
+					{ "time": 1, "name": "asteroid_00034" },
+					{ "time": 1.0333, "name": "asteroid_00035" },
+					{ "time": 1.0667, "name": "asteroid_00036" },
+					{ "time": 1.1, "name": "asteroid_00037" },
+					{ "time": 1.1333, "name": "asteroid_00038" },
+					{ "time": 1.1667, "name": "asteroid_00039" },
+					{ "time": 1.2, "name": "asteroid_00040" },
+					{ "time": 1.2333, "name": "asteroid_00041" },
+					{ "time": 1.2667, "name": "asteroid_00042" },
+					{ "time": 1.3, "name": "asteroid_00043" },
+					{ "time": 1.3333, "name": "asteroid_00044" },
+					{ "time": 1.3667, "name": "asteroid_00045" },
+					{ "time": 1.4, "name": "asteroid_00046" },
+					{ "time": 1.4333, "name": "asteroid_00047" },
+					{ "time": 1.7, "name": "asteroid_00011" },
+					{ "time": 1.7333, "name": "asteroid_00012" },
+					{ "time": 1.7667, "name": "asteroid_00013" },
+					{ "time": 1.8, "name": "asteroid_00014" },
+					{ "time": 1.8333, "name": "asteroid_00015" },
+					{ "time": 1.8667, "name": "asteroid_00016" },
+					{ "time": 1.9, "name": "asteroid_00017" },
+					{ "time": 1.9333, "name": "asteroid_00018" },
+					{ "time": 1.9667, "name": "asteroid_00019" },
+					{ "time": 2, "name": "asteroid_00020" },
+					{ "time": 2.0333, "name": "asteroid_00021" },
+					{ "time": 2.0667, "name": "asteroid_00022" },
+					{ "time": 2.1, "name": "asteroid_00023" },
+					{ "time": 2.1333, "name": "asteroid_00024" },
+					{ "time": 2.1667, "name": "asteroid_00025" },
+					{ "time": 2.2, "name": "asteroid_00026" },
+					{ "time": 2.2333, "name": "asteroid_00027" },
+					{ "time": 2.2667, "name": "asteroid_00028" },
+					{ "time": 2.3, "name": "asteroid_00029" },
+					{ "time": 2.3333, "name": "asteroid_00030" },
+					{ "time": 2.3667, "name": "asteroid_00031" },
+					{ "time": 2.4, "name": "asteroid_00032" },
+					{ "time": 2.4333, "name": "asteroid_00033" },
+					{ "time": 2.4667, "name": "asteroid_00034" },
+					{ "time": 2.5, "name": "asteroid_00035" },
+					{ "time": 2.5333, "name": "asteroid_00036" },
+					{ "time": 2.5667, "name": "asteroid_00037" },
+					{ "time": 2.6, "name": "asteroid_00038" },
+					{ "time": 2.6333, "name": "asteroid_00039" },
+					{ "time": 2.6667, "name": "asteroid_00040" },
+					{ "time": 2.7, "name": "asteroid_00041" },
+					{ "time": 2.7333, "name": "asteroid_00042" },
+					{ "time": 2.7667, "name": "asteroid_00043" },
+					{ "time": 2.8, "name": "asteroid_00044" },
+					{ "time": 2.8333, "name": "asteroid_00045" },
+					{ "time": 2.8667, "name": "asteroid_00046" },
+					{ "time": 2.9, "name": "asteroid_00047" },
+					{ "time": 3.1667, "name": "asteroid_00011" },
+					{ "time": 3.2, "name": "asteroid_00012" },
+					{ "time": 3.2333, "name": "asteroid_00013" },
+					{ "time": 3.2667, "name": "asteroid_00014" },
+					{ "time": 3.3, "name": "asteroid_00015" },
+					{ "time": 3.3333, "name": "asteroid_00016" },
+					{ "time": 3.3667, "name": "asteroid_00017" },
+					{ "time": 3.4, "name": "asteroid_00018" },
+					{ "time": 3.4333, "name": "asteroid_00019" },
+					{ "time": 3.4667, "name": "asteroid_00020" },
+					{ "time": 3.5, "name": "asteroid_00021" },
+					{ "time": 3.5333, "name": "asteroid_00022" },
+					{ "time": 3.5667, "name": "asteroid_00023" },
+					{ "time": 3.6, "name": "asteroid_00024" },
+					{ "time": 3.6333, "name": "asteroid_00025" },
+					{ "time": 3.6667, "name": "asteroid_00026" },
+					{ "time": 3.7, "name": "asteroid_00027" },
+					{ "time": 3.7333, "name": "asteroid_00028" },
+					{ "time": 3.7667, "name": "asteroid_00029" },
+					{ "time": 3.8, "name": "asteroid_00030" },
+					{ "time": 3.8333, "name": "asteroid_00031" },
+					{ "time": 3.8667, "name": "asteroid_00032" },
+					{ "time": 3.9, "name": "asteroid_00033" },
+					{ "time": 3.9333, "name": "asteroid_00034" },
+					{ "time": 3.9667, "name": "asteroid_00035" },
+					{ "time": 4, "name": "asteroid_00036" },
+					{ "time": 4.0333, "name": "asteroid_00037" },
+					{ "time": 4.0667, "name": "asteroid_00038" },
+					{ "time": 4.1, "name": "asteroid_00039" },
+					{ "time": 4.1333, "name": "asteroid_00040" }
+				]
+			},
+			"planet_01": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_02": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_04": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_05": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_07": {
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		},
+		"bones": {
+			"asteroid_01": {
+				"rotate": [
+					{ "angle": 37.74 }
+				]
+			},
+			"asteroid_02": {
+				"rotate": [
+					{ "angle": -36 }
+				]
+			}
+		}
+	},
+	"planet_06_out": {
+		"slots": {
+			"planet_01": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_02": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_03": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_04": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_05": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_07": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.2667, "name": "planet_07" }
+				]
+			}
+		},
+		"bones": {
+			"planet_07": {
+				"scale": [
+					{ "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2667, "x": 0, "y": 0 },
+					{ "time": 0.3333, "x": 1.1, "y": 1.1 },
+					{ "time": 0.4 }
+				]
+			},
+			"planet_06": {
+				"scale": [
+					{},
+					{ "time": 0.1, "x": 1.1, "y": 1.1 },
+					{ "time": 0.2, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"planet_07_in": {
+		"slots": {
+			"planet_01": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_02": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_04": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_05": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_06": {
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		}
+	},
+	"planet_07_loop": {
+		"slots": {
+			"planet_01": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_02": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_04": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_05": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_06": {
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		}
+	},
+	"planet_07_out": {
+		"slots": {
+			"planet_01": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_04": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_05": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"planet_06": {
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		},
+		"bones": {
+			"planet_07": {
+				"scale": [
+					{},
+					{ "time": 0.1, "x": 1.1, "y": 1.1 },
+					{ "time": 0.2 }
+				]
+			}
+		}
+	}
+}
+}

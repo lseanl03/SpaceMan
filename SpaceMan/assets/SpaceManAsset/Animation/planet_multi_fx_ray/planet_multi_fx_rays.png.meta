@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "3eebba79-6acf-4b66-9519-ab2e8b1f3d1b",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 216,
+  "height": 216,
+  "platformSettings": {},
+  "subMetas": {
+    "planet_multi_fx_rays": {
+      "ver": "1.0.6",
+      "uuid": "c761748f-3d70-4a2e-85ff-3a952b5f900b",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "3eebba79-6acf-4b66-9519-ab2e8b1f3d1b",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 212,
+      "height": 212,
+      "rawWidth": 216,
+      "rawHeight": 216,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

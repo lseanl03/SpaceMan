@@ -1,0 +1,20 @@
+
+planet_02.png
+size: 200,136
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+planet_2_star_glow
+  rotate: true
+  xy: 136, 59
+  size: 75, 60
+  orig: 80, 67
+  offset: 5, 7
+  index: -1
+planet_4_rotation_000
+  rotate: false
+  xy: 2, 2
+  size: 132, 132
+  orig: 151, 143
+  offset: 11, 8
+  index: -1

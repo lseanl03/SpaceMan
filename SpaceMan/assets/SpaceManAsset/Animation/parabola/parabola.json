@@ -1,0 +1,58 @@
+{
+"skeleton": { "hash": "0MGILzQgbz1S4P717xuXOjmn45g", "spine": "3.8.99", "images": "./images/", "audio": "E:/OUTSOURCE GAME/RUM/Asset/spaceman/asset/parabola" },
+"bones": [
+	{ "name": "root", "rotation": 0.03 }
+],
+"slots": [
+	{ "name": "parabola", "bone": "root" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"parabola": {
+				"parabola_0": { "width": 500, "height": 300 },
+				"parabola_4": { "width": 500, "height": 300 },
+				"parabola_8": { "width": 500, "height": 300 },
+				"parabola_12": { "width": 500, "height": 300 },
+				"parabola_16": { "width": 500, "height": 300 },
+				"parabola_20": { "width": 500, "height": 300 },
+				"parabola_24": { "width": 500, "height": 300 },
+				"parabola_28": { "width": 500, "height": 300 },
+				"parabola_32": { "width": 500, "height": 300 },
+				"parabola_36": { "width": 500, "height": 300 },
+				"parabola_40": { "width": 500, "height": 300 },
+				"parabola_44": { "width": 500, "height": 300 },
+				"parabola_48": { "width": 500, "height": 300 },
+				"parabola_52": { "width": 500, "height": 300 },
+				"parabola_56": { "width": 500, "height": 300 }
+			}
+		}
+	}
+],
+"animations": {
+	"parabola": {
+		"slots": {
+			"parabola": {
+				"attachment": [
+					{ "name": "parabola_0" },
+					{ "time": 0.2667, "name": "parabola_4" },
+					{ "time": 0.5333, "name": "parabola_8" },
+					{ "time": 0.8, "name": "parabola_12" },
+					{ "time": 1.1, "name": "parabola_16" },
+					{ "time": 1.3667, "name": "parabola_20" },
+					{ "time": 1.6333, "name": "parabola_24" },
+					{ "time": 1.9, "name": "parabola_28" },
+					{ "time": 2.1667, "name": "parabola_32" },
+					{ "time": 2.4333, "name": "parabola_36" },
+					{ "time": 2.7, "name": "parabola_40" },
+					{ "time": 2.9667, "name": "parabola_44" },
+					{ "time": 3.2667, "name": "parabola_48" },
+					{ "time": 3.5333, "name": "parabola_52" },
+					{ "time": 3.8, "name": "parabola_56" }
+				]
+			}
+		}
+	}
+}
+}

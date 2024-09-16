@@ -1,0 +1,13 @@
+
+planet_multi_fx_rays.png
+size: 216,216
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+rays
+  rotate: false
+  xy: 2, 2
+  size: 212, 212
+  orig: 222, 222
+  offset: 5, 5
+  index: -1

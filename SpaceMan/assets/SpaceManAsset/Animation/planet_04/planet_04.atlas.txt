@@ -1,0 +1,111 @@
+
+planet_04.png
+size: 432,268
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+planet_2_base
+  rotate: false
+  xy: 215, 89
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+planet_2_glow_2
+  rotate: true
+  xy: 112, 89
+  size: 100, 101
+  orig: 100, 101
+  offset: 0, 0
+  index: -1
+planet_2_inner_glow_1
+  rotate: false
+  xy: 2, 2
+  size: 90, 94
+  orig: 96, 98
+  offset: 3, 4
+  index: -1
+planet_2_inner_shadow
+  rotate: false
+  xy: 317, 108
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+planet_2_lines
+  rotate: false
+  xy: 196, 5
+  size: 77, 82
+  orig: 78, 82
+  offset: 0, 0
+  index: -1
+planet_2_rotation_164
+  rotate: false
+  xy: 94, 3
+  size: 100, 84
+  orig: 102, 101
+  offset: 2, 16
+  index: -1
+planet_2_shade_1
+  rotate: true
+  xy: 319, 18
+  size: 59, 87
+  orig: 59, 87
+  offset: 0, 0
+  index: -1
+planet_2_shade_2
+  rotate: false
+  xy: 275, 2
+  size: 42, 75
+  orig: 42, 75
+  offset: 0, 0
+  index: -1
+planet_2_shade_3
+  rotate: false
+  xy: 400, 232
+  size: 23, 34
+  orig: 23, 34
+  offset: 0, 0
+  index: -1
+planet_4_ring_1
+  rotate: false
+  xy: 112, 191
+  size: 185, 75
+  orig: 190, 94
+  offset: 1, 11
+  index: -1
+planet_4_ring_1_highlight
+  rotate: false
+  xy: 317, 79
+  size: 100, 27
+  orig: 102, 27
+  offset: 1, 0
+  index: -1
+planet_4_ring_2
+  rotate: false
+  xy: 2, 98
+  size: 108, 168
+  orig: 115, 173
+  offset: 3, 1
+  index: -1
+planet_4_ring_2_highlight
+  rotate: false
+  xy: 299, 210
+  size: 99, 56
+  orig: 102, 58
+  offset: 2, 1
+  index: -1
+small_planet_1_star_glow
+  rotate: true
+  xy: 408, 55
+  size: 22, 21
+  orig: 22, 21
+  offset: 0, 0
+  index: -1
+small_planet_3
+  rotate: false
+  xy: 400, 210
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1

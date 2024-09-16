@@ -1,0 +1,111 @@
+
+parabola.png
+size: 1484,1060
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+parabola_0
+  rotate: false
+  xy: 491, 849
+  size: 486, 206
+  orig: 500, 300
+  offset: 6, 3
+  index: -1
+parabola_12
+  rotate: false
+  xy: 2, 640
+  size: 492, 207
+  orig: 500, 300
+  offset: 0, 3
+  index: -1
+parabola_16
+  rotate: false
+  xy: 990, 426
+  size: 492, 210
+  orig: 500, 300
+  offset: 0, 3
+  index: -1
+parabola_20
+  rotate: false
+  xy: 2, 216
+  size: 491, 210
+  orig: 500, 300
+  offset: 1, 3
+  index: -1
+parabola_24
+  rotate: false
+  xy: 496, 639
+  size: 492, 208
+  orig: 500, 300
+  offset: 0, 3
+  index: -1
+parabola_28
+  rotate: false
+  xy: 495, 215
+  size: 492, 210
+  orig: 500, 300
+  offset: 0, 3
+  index: -1
+parabola_32
+  rotate: false
+  xy: 989, 214
+  size: 489, 210
+  orig: 500, 300
+  offset: 3, 3
+  index: -1
+parabola_36
+  rotate: false
+  xy: 990, 638
+  size: 492, 209
+  orig: 500, 300
+  offset: 0, 3
+  index: -1
+parabola_4
+  rotate: false
+  xy: 2, 428
+  size: 492, 210
+  orig: 500, 300
+  offset: 0, 3
+  index: -1
+parabola_40
+  rotate: false
+  xy: 2, 3
+  size: 492, 210
+  orig: 500, 300
+  offset: 0, 3
+  index: -1
+parabola_44
+  rotate: false
+  xy: 2, 850
+  size: 487, 205
+  orig: 500, 300
+  offset: 5, 3
+  index: -1
+parabola_48
+  rotate: false
+  xy: 496, 2
+  size: 492, 210
+  orig: 500, 300
+  offset: 0, 3
+  index: -1
+parabola_52
+  rotate: false
+  xy: 990, 2
+  size: 492, 210
+  orig: 500, 300
+  offset: 0, 3
+  index: -1
+parabola_56
+  rotate: false
+  xy: 979, 849
+  size: 485, 206
+  orig: 500, 300
+  offset: 7, 3
+  index: -1
+parabola_8
+  rotate: false
+  xy: 496, 427
+  size: 492, 210
+  orig: 500, 300
+  offset: 0, 3
+  index: -1

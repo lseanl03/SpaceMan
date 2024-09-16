@@ -1,0 +1,54 @@
+{
+"skeleton": {
+	"hash": "ySfk5RHFa/JA3d2HFgrw0StWkEM",
+	"spine": "3.8.99",
+	"x": -77.11,
+	"y": -74.63,
+	"width": 151,
+	"height": 143,
+	"images": "./images/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "length": 10, "rotation": 90 },
+	{ "name": "planet_2", "parent": "bone", "rotation": -90, "x": 2.08, "y": 1.04 }
+],
+"slots": [
+	{ "name": "planet_2_star_glow", "bone": "planet_2", "attachment": "planet_2_star_glow" },
+	{ "name": "planet_4_rotation_000", "bone": "planet_2", "attachment": "planet_4_rotation_000" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"planet_2_star_glow": {
+				"planet_2_star_glow": { "x": -31.65, "y": 5.87, "rotation": -0.09, "width": 80, "height": 67 }
+			},
+			"planet_4_rotation_000": {
+				"planet_4_rotation_000": { "x": -0.57, "y": -5.21, "width": 151, "height": 143 }
+			}
+		}
+	}
+],
+"animations": {
+	"planet_2": {
+		"bones": {
+			"planet_2": {
+				"rotate": [
+					{ "angle": 1.5 }
+				],
+				"translate": [
+					{},
+					{ "time": 1.4667, "x": 2.39 },
+					{ "time": 4.1667, "x": 5.88, "y": 8.14 },
+					{ "time": 5.4667, "x": 5.66, "y": 5.66 },
+					{ "time": 6.9333, "x": 2.39 },
+					{ "time": 9, "x": 5.88, "y": 8.14 },
+					{ "time": 10.9333 }
+				]
+			}
+		}
+	}
+}
+}

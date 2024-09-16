@@ -1,0 +1,38 @@
+{
+"skeleton": { "hash": "2PCywIG3x8EV1cBVTcIHIfEt0xE", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "fast_bg", "bone": "root" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"fast_bg": {
+				"fast_bg_01": { "width": 576, "height": 324 },
+				"fast_bg_02": { "width": 576, "height": 324 },
+				"fast_bg_03": { "width": 576, "height": 324 },
+				"fast_bg_04": { "width": 576, "height": 324 },
+				"fast_bg_05": { "width": 576, "height": 324 }
+			}
+		}
+	}
+],
+"animations": {
+	"basegame_bg_extended_fast_loop": {
+		"slots": {
+			"fast_bg": {
+				"attachment": [
+					{ "name": "fast_bg_01" },
+					{ "time": 0.1, "name": "fast_bg_02" },
+					{ "time": 0.2, "name": "fast_bg_03" },
+					{ "time": 0.3, "name": "fast_bg_04" },
+					{ "time": 0.4, "name": "fast_bg_05" }
+				]
+			}
+		}
+	}
+}
+}

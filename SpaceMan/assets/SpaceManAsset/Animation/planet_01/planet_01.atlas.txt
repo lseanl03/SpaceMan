@@ -1,0 +1,104 @@
+
+planet_01.png
+size: 420,912
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+planet_1_base
+  rotate: true
+  xy: 2, 471
+  size: 205, 207
+  orig: 205, 207
+  offset: 0, 0
+  index: -1
+planet_1_base_light
+  rotate: false
+  xy: 237, 525
+  size: 177, 153
+  orig: 185, 166
+  offset: 0, 13
+  index: -1
+planet_1_highlight_1
+  rotate: false
+  xy: 2, 149
+  size: 115, 114
+  orig: 148, 152
+  offset: 16, 18
+  index: -1
+planet_1_inner_glow
+  rotate: false
+  xy: 209, 116
+  size: 205, 200
+  orig: 205, 204
+  offset: 0, 4
+  index: -1
+planet_1_inner_shadow
+  rotate: true
+  xy: 211, 318
+  size: 205, 206
+  orig: 205, 206
+  offset: 0, 0
+  index: -1
+planet_1_pink_glow
+  rotate: false
+  xy: 2, 678
+  size: 233, 229
+  orig: 244, 248
+  offset: 4, 7
+  index: -1
+planet_1_ring
+  rotate: true
+  xy: 237, 680
+  size: 227, 178
+  orig: 227, 178
+  offset: 0, 0
+  index: -1
+planet_1_rotation_000
+  rotate: true
+  xy: 2, 265
+  size: 204, 205
+  orig: 205, 205
+  offset: 0, 0
+  index: -1
+planet_ring_sweep_00000
+  rotate: false
+  xy: 207, 56
+  size: 91, 58
+  orig: 114, 89
+  offset: 0, 0
+  index: -1
+planet_ring_sweep_00001
+  rotate: false
+  xy: 99, 44
+  size: 89, 57
+  orig: 114, 89
+  offset: 0, 0
+  index: -1
+planet_ring_sweep_00002
+  rotate: false
+  xy: 2, 81
+  size: 95, 66
+  orig: 114, 89
+  offset: 2, 1
+  index: -1
+planet_ring_sweep_00003
+  rotate: false
+  xy: 119, 184
+  size: 88, 79
+  orig: 114, 89
+  offset: 21, 7
+  index: -1
+planet_ring_sweep_00004
+  rotate: false
+  xy: 2, 2
+  size: 83, 77
+  orig: 114, 89
+  offset: 31, 12
+  index: -1
+planet_ring_sweep_00005
+  rotate: false
+  xy: 119, 103
+  size: 86, 79
+  orig: 114, 89
+  offset: 28, 10
+  index: -1
